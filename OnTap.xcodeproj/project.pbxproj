@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8829A515141EB141004F3CFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8829A514141EB141004F3CFC /* UIKit.framework */; };
+		8829A517141EB141004F3CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8829A516141EB141004F3CFC /* Foundation.framework */; };
+		8829A519141EB141004F3CFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8829A518141EB141004F3CFC /* CoreGraphics.framework */; };
+		8829A51F141EB141004F3CFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8829A51D141EB141004F3CFC /* InfoPlist.strings */; };
+		8829A521141EB141004F3CFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8829A520141EB141004F3CFC /* main.m */; };
+		8829A525141EB141004F3CFC /* OnTapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8829A524141EB141004F3CFC /* OnTapAppDelegate.m */; };
+		8829A528141EB141004F3CFC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8829A526141EB141004F3CFC /* MainWindow.xib */; };
+		8829A52B141EB141004F3CFC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8829A52A141EB141004F3CFC /* FirstViewController.m */; };
+		8829A52E141EB141004F3CFC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8829A52D141EB141004F3CFC /* SecondViewController.m */; };
+		8829A531141EB141004F3CFC /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8829A52F141EB141004F3CFC /* FirstView.xib */; };
+		8829A534141EB141004F3CFC /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8829A532141EB141004F3CFC /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8829A510141EB141004F3CFC /* OnTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8829A514141EB141004F3CFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8829A516141EB141004F3CFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8829A518141EB141004F3CFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8829A51C141EB141004F3CFC /* OnTap-Info.plist */ = {isa = PBXFileReference; path = "OnTap-Info.plist"; sourceTree = "<group>"; };
+		8829A51E141EB141004F3CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8829A520141EB141004F3CFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8829A522141EB141004F3CFC /* OnTap-Prefix.pch */ = {isa = PBXFileReference; path = "OnTap-Prefix.pch"; sourceTree = "<group>"; };
+		8829A523141EB141004F3CFC /* OnTapAppDelegate.h */ = {isa = PBXFileReference; path = OnTapAppDelegate.h; sourceTree = "<group>"; };
+		8829A524141EB141004F3CFC /* OnTapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnTapAppDelegate.m; sourceTree = "<group>"; };
+		8829A527141EB141004F3CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8829A529141EB141004F3CFC /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		8829A52A141EB141004F3CFC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8829A52C141EB141004F3CFC /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		8829A52D141EB141004F3CFC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8829A530141EB141004F3CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		8829A533141EB141004F3CFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8829A50D141EB141004F3CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8829A515141EB141004F3CFC /* UIKit.framework in Frameworks */,
+				8829A517141EB141004F3CFC /* Foundation.framework in Frameworks */,
+				8829A519141EB141004F3CFC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8829A505141EB141004F3CFC = {
+			isa = PBXGroup;
+			children = (
+				8829A51A141EB141004F3CFC /* OnTap */,
+				8829A513141EB141004F3CFC /* Frameworks */,
+				8829A511141EB141004F3CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8829A511141EB141004F3CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8829A510141EB141004F3CFC /* OnTap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8829A513141EB141004F3CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8829A514141EB141004F3CFC /* UIKit.framework */,
+				8829A516141EB141004F3CFC /* Foundation.framework */,
+				8829A518141EB141004F3CFC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8829A51A141EB141004F3CFC /* OnTap */ = {
+			isa = PBXGroup;
+			children = (
+				8829A523141EB141004F3CFC /* OnTapAppDelegate.h */,
+				8829A524141EB141004F3CFC /* OnTapAppDelegate.m */,
+				8829A526141EB141004F3CFC /* MainWindow.xib */,
+				8829A529141EB141004F3CFC /* FirstViewController.h */,
+				8829A52A141EB141004F3CFC /* FirstViewController.m */,
+				8829A52C141EB141004F3CFC /* SecondViewController.h */,
+				8829A52D141EB141004F3CFC /* SecondViewController.m */,
+				8829A52F141EB141004F3CFC /* FirstView.xib */,
+				8829A532141EB141004F3CFC /* SecondView.xib */,
+				8829A51B141EB141004F3CFC /* Supporting Files */,
+			);
+			path = OnTap;
+			sourceTree = "<group>";
+		};
+		8829A51B141EB141004F3CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8829A51C141EB141004F3CFC /* OnTap-Info.plist */,
+				8829A51D141EB141004F3CFC /* InfoPlist.strings */,
+				8829A520141EB141004F3CFC /* main.m */,
+				8829A522141EB141004F3CFC /* OnTap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8829A50F141EB141004F3CFC /* OnTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8829A537141EB141004F3CFC /* Build configuration list for PBXNativeTarget "OnTap" */;
+			buildPhases = (
+				8829A50C141EB141004F3CFC /* Sources */,
+				8829A50D141EB141004F3CFC /* Frameworks */,
+				8829A50E141EB141004F3CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnTap;
+			productName = OnTap;
+			productReference = 8829A510141EB141004F3CFC /* OnTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8829A507141EB141004F3CFC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8829A50A141EB141004F3CFC /* Build configuration list for PBXProject "OnTap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8829A505141EB141004F3CFC;
+			productRefGroup = 8829A511141EB141004F3CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8829A50F141EB141004F3CFC /* OnTap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8829A50E141EB141004F3CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8829A51F141EB141004F3CFC /* InfoPlist.strings in Resources */,
+				8829A528141EB141004F3CFC /* MainWindow.xib in Resources */,
+				8829A531141EB141004F3CFC /* FirstView.xib in Resources */,
+				8829A534141EB141004F3CFC /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8829A50C141EB141004F3CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8829A521141EB141004F3CFC /* main.m in Sources */,
+				8829A525141EB141004F3CFC /* OnTapAppDelegate.m in Sources */,
+				8829A52B141EB141004F3CFC /* FirstViewController.m in Sources */,
+				8829A52E141EB141004F3CFC /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8829A51D141EB141004F3CFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8829A51E141EB141004F3CFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8829A526141EB141004F3CFC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8829A527141EB141004F3CFC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8829A52F141EB141004F3CFC /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8829A530141EB141004F3CFC /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		8829A532141EB141004F3CFC /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8829A533141EB141004F3CFC /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8829A535141EB141004F3CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8829A536141EB141004F3CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8829A538141EB141004F3CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OnTap/OnTap-Prefix.pch";
+				INFOPLIST_FILE = "OnTap/OnTap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8829A539141EB141004F3CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OnTap/OnTap-Prefix.pch";
+				INFOPLIST_FILE = "OnTap/OnTap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8829A50A141EB141004F3CFC /* Build configuration list for PBXProject "OnTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8829A535141EB141004F3CFC /* Debug */,
+				8829A536141EB141004F3CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8829A537141EB141004F3CFC /* Build configuration list for PBXNativeTarget "OnTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8829A538141EB141004F3CFC /* Debug */,
+				8829A539141EB141004F3CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8829A507141EB141004F3CFC /* Project object */;
+}
